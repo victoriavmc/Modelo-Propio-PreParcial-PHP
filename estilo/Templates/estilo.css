@@ -1,0 +1,293 @@
+/* Estilos generales para el cuerpo de la página */
+html,
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-image: url('../Imagen/Fondo.png');
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 95.5vh;
+    justify-content: center;
+}
+
+footer {
+    background-color: #888;
+}
+
+.footer-content {
+
+    margin-right: 10px;
+    color: white;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.ladoIzq {
+    margin: 300px;
+}
+
+.ladoDere.formulario.romboIMG {
+    margin: 80px;
+}
+
+.ladoDere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.romboContainer {
+    position: relative;
+}
+
+.contenidoRombo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.contenidoRombo h1 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.contenidoRombo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.contenidoRombo h1 {
+    font-size: 50px;
+}
+
+.contenidoRombo label {
+    font-size: 45px;
+    text-align: left;
+    display: block;
+}
+
+.contenidoRombo a {
+    color: red;
+    font-size: 20px;
+    text-align: right;
+    display: block;
+}
+
+.contenidoRombo input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+.contenidoRombo button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 30px;
+    border: 0;
+    background: rgb(245, 229, 28);
+    background: linear-gradient(90deg, rgba(245, 229, 28, 1) 6%, rgba(235, 160, 59, 1) 44%, rgba(245, 131, 74, 1) 93%);
+}
+
+.volver {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 65px;
+
+}
+
+.cuadroMostrar {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(245, 131, 74, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    margin: 0 auto;
+}
+
+.cuadroMostrar p {
+    font-size: 50px;
+}
+
+.selectorIzquierdo {
+    width: 350px;
+    height: 95.8vh;
+    background-color: white;
+    font-size: 30px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.selectorIzquierdo p {
+    font-size: 35px;
+}
+
+.selectorIzquierdo a {
+    text-decoration: none;
+    color: black;
+}
+
+.costadoIzq {
+    width: 22%;
+    height: 100vh;
+}
+
+.marcoDerecho {
+    width: 88%;
+    height: 100vh;
+}
+
+
+li {
+    margin-bottom: 10px;
+    line-height: 2.5;
+}
+
+.divisorHorizontal {
+    display: flex;
+}
+
+.divisorHorizontal-contenido {
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.admin-salir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divisorHorizontal-texto {
+    margin: 0;
+}
+
+.datosPersonales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.marcoDerecho {
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    height: 85vh;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloBusca {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.imagenYTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.marcoDerecho h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -40px;
+}
+
+.filtro form {
+    display: flex;
+    align-items: center;
+
+}
+
+.filtro form label {
+    margin-right: 10px;
+}
+
+.filtro form input {
+    margin-right: 10px;
+}
+
+.cuadritoEmpleado {
+    width: calc(100% - 40px);
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.cuadritoEmpleado table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cuadritoEmpleado th {
+    background-color: rgb(246, 150, 59);
+    border: 1px solid gray;
+}
+
+.cuadritoEmpleado th,
+.cuadritoEmpleado td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.empleado-encontrado {
+    background-color: #ffffcc;
+}
+
+.atras {
+    position: absolute;
+    top: 80px;
+    /* Ajusta según el margen superior deseado */
+    left: 520px;
+    /* Ajusta según el margen izquierdo deseado */
+    margin: 0;
+}

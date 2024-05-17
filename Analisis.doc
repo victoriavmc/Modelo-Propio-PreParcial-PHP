@@ -1,0 +1,56 @@
+                                        Temas para el Parcial
+                                    Paradigmas de Programación.
+
+Algoritmos concurrentes, distribuidos y paralelos. Procesos. Hilos. Arquitectura monoprocesador y multiprocesador. Programación Paralela. Multiprogramación. Multiprocesamiento. 
+
+1. Algoritmos Concurrentes, Distribuidos y Paralelos:
+   - Concurrentes: Son algoritmos donde múltiples tareas pueden ejecutarse simultáneamente, pero no necesariamente al mismo tiempo. Pueden intercalarse en la ejecución.
+   - Distribuidos: Estos algoritmos se ejecutan en múltiples dispositivos o nodos de una red, trabajando juntos para lograr un objetivo común.
+   - Paralelos: Se refiere a la ejecución simultánea de múltiples tareas en diferentes núcleos de un procesador o en múltiples procesadores.
+
+2. Procesos:
+   - Un proceso es un programa en ejecución. Incluye el código ejecutable, datos y recursos del sistema asignados (como espacio de memoria, archivos abiertos).
+   - Los procesos pueden ser independientes entre sí o pueden compartir recursos y comunicarse entre ellos.
+
+3. Hilos:
+   - Un hilo es la unidad básica de ejecución dentro de un proceso.
+   - Múltiples hilos pueden ejecutarse de manera concurrente dentro del mismo proceso, compartiendo el mismo espacio de memoria y otros recursos del proceso.
+
+4. Arquitectura Monoprocesador y Multiprocesador:
+   - Monoprocesador: Una arquitectura con un solo procesador que ejecuta un único hilo de ejecución a la vez.
+   - Multiprocesador: Una arquitectura con múltiples procesadores (o núcleos) que pueden ejecutar múltiples hilos de ejecución simultáneamente.
+
+5. Programación Paralela:
+   - Se refiere al diseño y la implementación de algoritmos y programas que pueden ejecutarse de manera concurrente y/o paralela para aprovechar al máximo los recursos de hardware disponibles.
+
+6. Multiprogramación:
+   - Estrategia de gestión de procesos en la que se cargan varios procesos en la memoria al mismo tiempo y se alterna entre ellos para mantener ocupada la CPU.
+
+7. Multiprocesamiento:
+   - Uso de múltiples procesadores o núcleos en un sistema para ejecutar programas de manera simultánea, mejorando el rendimiento y la capacidad de respuesta del sistema.
+
+
+Caso Práctico: análisis, creación de una Base de Datos y codificación de un ABM.
+
+Ejemplode de Caso Practico:
+
+Un sistema de gestión de empleados para una pequeña empresa. 
+
+El sistema debe permitir al jefe:
+    + Tener su propia cuenta para ingresar al sistema.
+    + Poder modificar la contraseña cuando lo requiera.
+    + Registrar nuevos empleados con información:
+                                                 Empleados:
+                                                   - Nombre
+                                                   - Apellido
+                                                   - Fecha de Nacimiento
+                                                   - Dirección
+                                                   - Salario
+                                                   - Puesto
+                                                   - Fecha de Ingreso
+    + Actualizar la información de los empleados.
+    
+    + Eliminar empleados del sistema.
+
+    + Consultar y Visualizar la información de los empleados.
+
