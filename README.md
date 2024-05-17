@@ -16,3 +16,6 @@ El sistema debe permitir al jefe:
 + Actualizar la información de los empleados.
 + Eliminar empleados del sistema.
 + Consultar y Visualizar la información de los empleados.
+
+# Login
+![Esto es como quedo el Login.](Login.png)
