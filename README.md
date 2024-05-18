@@ -16,6 +16,7 @@ El sistema debe permitir al jefe:
 + Actualizar la información de los empleados.
 + Eliminar empleados del sistema.
 + Consultar y Visualizar la información de los empleados.
++ Enviar mails para ver el codigo de Olvido (Video para configurar https://youtu.be/8r6ftznAQp4?si=X2G7Buffokg08keh)
 
 # Login
 ![Esto es como quedo el Login.](Login.png)
