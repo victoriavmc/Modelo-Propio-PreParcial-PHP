@@ -1,4 +1,4 @@
-# PreParcial-PHP
+# Cree mi Propio Modelo de PreParcial-PHP
 
 El sistema debe permitir al jefe:
 + Tener su propia cuenta para ingresar al sistema.
